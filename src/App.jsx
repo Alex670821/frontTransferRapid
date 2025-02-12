@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import axios from "axios";
@@ -8,6 +9,18 @@ import TransferForm from "./components/TransferForm";
 import CountryList from "./components/CountryList";
 import Header from "./components/Header"; // Importar el componente Header
 import Footer from "./components/Footer"; // Importar el componente Footer
+=======
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import RegisterForm from './components/RegisterForm';
+import LoginForm from './components/LoginForm';
+import Logout from './components/Logout';
+import PasswordReset from './components/PasswordReset';
+import EnviarFactura from './components/EnviarFactura';
+import Transacciones from './components/Transacciones';
+>>>>>>> f5137ac3f3ed9cbab6106f9fe8555ba5fe049ba7
 import './styles.css';
 import './header.css';
 import './login.css';
@@ -39,6 +52,7 @@ function App() {
 
   return (
     <Router>
+<<<<<<< HEAD
       <div className="app-container">
         <Routes>
           <Route
@@ -83,6 +97,21 @@ function App() {
           />
           <Route path="*" element={<h1>404 - Página no encontrada</h1>} />
         </Routes>
+=======
+      <div className="app">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/register" element={<RegisterForm />} />
+            <Route path="/login" element={<LoginForm />} />
+            <Route path="/logout" element={<Logout />} />
+            <Route path="/password_reset" element={<PasswordReset />} />
+            <Route path="/enviar-factura" element={<EnviarFactura />} />
+            <Route path="/transacciones" element={<Transacciones />} />
+          </Routes>
+        </main>
+        <Footer />
+>>>>>>> f5137ac3f3ed9cbab6106f9fe8555ba5fe049ba7
       </div>
     </Router>
   );
