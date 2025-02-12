@@ -6,6 +6,8 @@ import RegisterForm from './components/RegisterForm';
 import LoginForm from './components/LoginForm';
 import Logout from './components/Logout';
 import PasswordReset from './components/PasswordReset';
+import EnviarFactura from './components/EnviarFactura';
+import Transacciones from './components/Transacciones';
 import './styles.css';
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
             <Route path="/login" element={<LoginForm />} />
             <Route path="/logout" element={<Logout />} />
             <Route path="/password_reset" element={<PasswordReset />} />
+            <Route path="/enviar-factura" element={<EnviarFactura />} />
+            <Route path="/transacciones" element={<Transacciones />} />
           </Routes>
         </main>
         <Footer />
