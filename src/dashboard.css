@@ -1,0 +1,49 @@
+/* components/Dashboard.css */
+
+/* Estilos para el contenedor del dashboard */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el encabezado del dashboard */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el título del dashboard */
+  .dashboard-header h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Estilos para el botón de cerrar sesión */
+  .dashboard-header button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-header button:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos para el párrafo de bienvenida */
+  .dashboard-container p {
+    font-size: 18px;
+    color: #666;
+  }
+  

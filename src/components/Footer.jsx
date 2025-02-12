@@ -1,9 +1,11 @@
-import React from 'react';
+// components/Footer.js
+import React from "react";
+// Asegúrate de importar los estilos específicos del footer
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <p>&copy; 2025 Transferencias. Todos los derechos reservados.</p>
+    <footer>
+      <p>&copy; 2025 WESTER UNION. Todos los derechos reservados.</p>
     </footer>
   );
 };

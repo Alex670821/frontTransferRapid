@@ -1,0 +1,16 @@
+/* components/Footer.css */
+
+footer {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto; /* Se asegura de que el footer se pegue al final de la página */
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
